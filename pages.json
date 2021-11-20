@@ -1,0 +1,88 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		
+		{
+			"path": "pages/returnMaterial/returnMaterial",
+			"style": {
+				"navigationBarTitleText": "生产退料",
+				"backgroundColor":"blue"
+			}
+		},
+		{
+			"path": "pages/shopCar/shopCar",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"backgroundColor":"blue"
+			}
+		},
+		{
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "商品",
+				"backgroundColor":"blue"
+			}
+		},
+		{
+			"path": "pages/listDetail/listDetail",
+			"style": {
+				"navigationBarTitleText":"商品详情",
+				"backgroundColor":"blue"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#295",
+		"backgroundColor": "rgb(247,247,247)",
+		"enablePullDownRefresh":true
+	},
+	"tabBar":{
+		"color":"#DD524D",
+		"selectedColor":"#4CD964",
+		"backgroundColor":"#F0AD4E",
+		"position":"bottom",
+		"fontSize":"12px",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index"
+			},
+			{
+				"text":"商品",
+				"pagePath":"pages/list/list"
+			},
+			{
+				"text":"订单页",
+				"pagePath":"pages/returnMaterial/returnMaterial"
+			},
+			{
+				"text":"购物车",
+				"pagePath":"pages/shopCar/shopCar"
+			},
+			
+			{
+				"text":"我的",
+				"pagePath":"pages/my/my"
+			}
+		]
+	}
+}

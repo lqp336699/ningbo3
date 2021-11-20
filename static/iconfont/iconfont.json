@@ -1,0 +1,16 @@
+{
+  "id": "2950291",
+  "name": "宁波",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1250",
+      "name": "其它",
+      "font_class": "qita",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
